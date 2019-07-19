@@ -19,6 +19,9 @@ body {
   color: grey;
 }
 
+header .header__container {
+  padding-left: 0;
+}
 header .container .row {
   padding: 10px;
   text-align: center;
@@ -26,6 +29,9 @@ header .container .row {
 header .container .row .logo {
   font-size: 30px;
   text-align: left;
+}
+header .container .row .row a {
+  color: grey;
 }
 
 .main {
