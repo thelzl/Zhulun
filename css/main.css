@@ -1,0 +1,95 @@
+body {
+  background-color: #e4e2e2;
+  background-image: url(../images/main_bg.png);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.purple {
+  color: #c411c4;
+}
+
+.grey {
+  color: grey;
+}
+
+header .container .row {
+  padding: 10px;
+  text-align: center;
+}
+header .container .row .logo {
+  font-size: 30px;
+  text-align: left;
+}
+
+.main {
+  border-radius: 20px;
+}
+.main .container .purple-background {
+  background-color: #c411c4;
+  background-image: url(../images/up_half_bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border-radius: 20px 20px 0 0;
+}
+.main .container .purple-background img {
+  width: 100%;
+  padding: 40px;
+  margin-bottom: -75px;
+}
+.main .container .purple-background .up-name-padding {
+  padding: 40px 0 20px 0;
+  color: white;
+}
+.main .container .purple-background .up-name-padding h1 {
+  font-size: 50px;
+  margin-bottom: 0.2em;
+}
+.main .container .purple-background .up-name-padding a {
+  display: inline-block;
+  background-color: white;
+  width: 36px;
+  height: 36px;
+  border-radius: 20px;
+  margin: 0 1px;
+}
+.main .container .purple-background .up-name-padding a i {
+  color: grey;
+  font-size: 16px;
+  line-height: 36px;
+}
+.main .container .white-background {
+  background-color: white;
+  border-radius: 0 0 20px 20px;
+  padding: 60px 20px;
+}
+.main .container .white-background h2 {
+  margin-top: 0;
+}
+.main .container .white-background .row {
+  margin-bottom: 8px;
+}
+
+footer {
+  position: fixed;
+  bottom: 10px;
+  left: 0;
+  right: 0;
+  font-size: 12px;
+}
+footer .copyrights {
+  text-align: center;
+  color: grey;
+}
+footer .copyrights a {
+  color: #c411c4;
+}
+
+/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,96 @@
+@import "./variables.scss";
+
+body{
+    background-color: rgb(228, 226, 226);
+    background-image: url(../images/main_bg.png);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+.text-center{
+    text-align: center;
+}
+.purple{
+    color: $main-purple;
+}
+.grey{
+    color: grey;
+}
+header{
+    .container{
+        .row{
+            padding: 10px;
+            text-align: center;
+            .logo{
+                font-size: 30px;
+                text-align: left;
+            }
+        }
+    }
+}
+.main{
+    border-radius: 20px;
+    .container{
+        .purple-background{
+            background-color: $main-purple;
+            background-image: url(../images/up_half_bg.png);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+            border-radius: 20px 20px 0 0;
+            img{
+                width: 100%;
+                padding: 40px;
+                margin-bottom: -75px;
+            }
+            .up-name-padding{
+                padding:40px 0 20px 0;
+                color: white;
+                h1{
+                    font-size: 50px;
+                    margin-bottom: 0.2em;
+                }
+                a{
+                    display: inline-block;
+                    background-color: white;
+                    width: 36px;
+                    height: 36px;
+                    border-radius: 20px;
+                    margin:0 1px; 
+                    i{
+                        color:grey;
+                        font-size: 16px;
+                        line-height: 36px;
+                    }
+                }
+            }
+        }
+        .white-background{
+            h2{
+                margin-top: 0;
+            }
+            background-color: white;
+            border-radius: 0 0 20px 20px;
+            padding: 60px 20px;
+            .row{
+                margin-bottom: 8px;
+            }
+        }
+    }
+}
+footer{
+    position: fixed;
+    bottom: 10px;
+    left: 0;
+    right: 0;
+    font-size: 12px;
+    .copyrights{
+        text-align: center;
+        color:grey;
+        a{
+            color:$main-purple;
+        }
+    }
+}
