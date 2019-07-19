@@ -19,6 +19,9 @@ body{
     color: grey;
 }
 header{
+    .header__container{
+        padding-left: 0;
+    }
     .container{
         .row{
             padding: 10px;
@@ -26,6 +29,11 @@ header{
             .logo{
                 font-size: 30px;
                 text-align: left;
+            }
+            .row{
+                a{
+                    color:grey;
+                }
             }
         }
     }
