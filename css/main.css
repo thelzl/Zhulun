@@ -85,6 +85,10 @@ header .container .row .logo {
 header .container .row .row a {
   color: grey;
 }
+header .container .row .row .nav-on-page {
+  color: black;
+  border-bottom: 2px solid #c411c4;
+}
 header .container .row .row a:hover {
   color: black;
   border-bottom: 2px solid #c411c4;
@@ -101,18 +105,19 @@ header .container .row .row a:hover {
   background-size: cover;
   background-position: center;
   border-radius: 20px 20px 0 0;
+  padding: 50px 50px 30px 50px;
 }
 .main .container .purple-background img {
   width: 100%;
-  padding: 40px;
+  padding: 5px;
   margin-bottom: -75px;
 }
 .main .container .purple-background .up-name-padding {
-  padding: 40px 0 20px 0;
   color: white;
 }
 .main .container .purple-background .up-name-padding h1 {
   font-size: 50px;
+  margin: 0.85em 0;
   margin-bottom: 0.2em;
 }
 .main .container .purple-background .up-name-padding a {
@@ -131,7 +136,7 @@ header .container .row .row a:hover {
 .main .container .white-background {
   background-color: white;
   border-radius: 0 0 20px 20px;
-  padding: 60px 20px;
+  padding: 60px 40px 40px 40px;
 }
 .main .container .white-background h2 {
   margin-top: 0;
