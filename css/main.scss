@@ -1,5 +1,56 @@
 @import "./variables.scss";
 
+// *******  5 equal columns ********
+.col-2dot4,
+.col-sm-2dot4,
+.col-md-2dot4,
+.col-lg-2dot4,
+.col-xl-2dot4 {
+    position: relative;
+    width: 100%;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.col-2dot4 {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 20%;
+    flex: 0 0 20%;
+    max-width: 20%;
+}
+@media (min-width: 576px) {
+    .col-sm-2dot4 {
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 20%;
+        flex: 0 0 20%;
+        max-width: 20%;
+    }
+}
+@media (min-width: 720px) {
+    .col-md-2dot4 {
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 20%;
+        flex: 0 0 20%;
+        max-width: 20%;
+    }
+}
+@media (min-width: 960px) {
+    .col-lg-2dot4 {
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 20%;
+        flex: 0 0 20%;
+        max-width: 20%;
+    }
+}
+@media (min-width: 1140px) {
+    .col-xl-2dot4 {
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 20%;
+        flex: 0 0 20%;
+        max-width: 20%;
+    }
+}
+// ********* end of 5 equal columns ********
 body{
     background-color: rgb(228, 226, 226);
     background-image: url(../images/main_bg.png);
@@ -21,6 +72,7 @@ body{
 header{
     .header__container{
         padding-left: 0;
+        padding-right: 0;
     }
     .container{
         .row{
@@ -33,6 +85,11 @@ header{
             .row{
                 a{
                     color:grey;
+                }
+                a:hover{
+                    color: black;
+                    border-bottom: 2px solid $main-purple;
+                    text-decoration: none;
                 }
             }
         }
